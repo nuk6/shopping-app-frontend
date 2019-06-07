@@ -1,6 +1,7 @@
 
 html,body{
     margin: 0px;
+    background : linear-gradient(to left, #ca1fca, #cf901c);
 }
 
 #homePageId{
