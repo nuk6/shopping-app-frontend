@@ -5,9 +5,9 @@ class SearchBar extends React.Component{
         return(
             <div id='searchBarWrap'>
                 <div id='searchBarId'>
-                    <input id='searchInput'/>
+                    <input id='searchInput' placeholder='Search...'/>
                     <div className='submitButtons'>
-                        Search!
+                        Go
                     </div>
                 </div>
             </div>
