@@ -1,14 +1,18 @@
 import React from 'react';
-// import ConfirmationPage from './components/pages/ConfirmationPage';
-import DisplayPage from './components/pages/DisplayPage';
+import Banner from './components/Banner';
+import Content from './components/Content';
+import Slider from './components/Slider';
 require('./HomePage.css');
-class HomePage extends React.Component{
+
+export default class HomePage extends React.Component{
+
     render(){
-        return (
-        <div id='homePageId'>
-            <DisplayPage/>
-        </div>);
+        return(
+            <div id='homePageId'>
+                <Slider/>
+                <Banner/>
+                <Content/>
+            </div>
+        );
     }
 }
-
-export default HomePage;
